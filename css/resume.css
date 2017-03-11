@@ -1,0 +1,141 @@
+/* jin biao*/
+body{
+	background:url(../images/jopbackground.png)no-repeat center;
+}
+section{
+	width:1200px;
+	margin:0 auto;
+}
+#resume{
+	width:1200px;
+}
+#resume>h1{
+	border-bottom:1px solid #DDD;
+	padding:10px 0;
+}
+#resume div.down{
+	float:right;
+	background-color:#337AB7;
+	border-radius:3px;
+	width:60px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	margin:5px 10px 0 0;
+}
+#resume div.down span{
+	color:#fff;
+	position:relative;
+	top:-2px;
+	font-weight:bold;
+
+}
+#resume div.downs{
+	height:40px;
+	background-color:#D9EDF7;
+	line-height:40px;
+}
+#resume div.downs>span{
+	color:#31708F;
+	font-size:14px;
+	margin-left:10px;
+}
+#resume div.photo{
+	background-color:#ECEAEA;
+	height:300px;
+	border:1px solid #CCCACA;
+	border-top:none;
+	border-bottom:1px dashed #CCCACA;
+}
+#resume div.photo img{
+	float:left;
+	padding:35px;
+}
+#resume div.photo p.p1{
+	padding-top:60px;
+	font-size:25px;
+}
+#resume div.photo p.p2{
+	padding-top:40px;
+	font-size:15px;
+}
+#resume div.photo p.p3{
+	padding-top:40px;
+	font-size:15px;
+}
+#resume div.photo p.p1>span{
+	font-size:15px;
+}
+#resume div.basic h3>img{
+	position:relative;
+	top:2px;
+	margin-right:5px;
+}
+#resume div.basic{
+	padding:30px;
+	height:235px;
+	border:1px solid #CCCACA;
+	border-top:none;
+	border-bottom:1px dashed #CCCACA;
+}
+#resume div.basic>h3{
+	margin:10px 0;
+	margin-bottom:30px;
+}
+#resume div.basic ul.ulbasic li{
+	font-size:15px;
+	height:40px;
+	color:#333;
+	float:left;
+	width:36%;
+}
+#resume div.work{
+	padding:30px;
+	height:275px;
+	border:1px solid #CCCACA;
+	border-top:none;
+	border-bottom:1px dashed #CCCACA;
+}
+#resume div.work h3>img{
+	position:relative;
+	top:5px;
+	margin-right:5px;
+}
+#resume div.work>h3{
+	margin:10px 0;
+	margin-bottom:30px;
+}
+#resume div.work ul.ulwork li{
+	font-size:15px;
+	height:40px;
+	color:#333;
+	float:left;
+	width:100%;
+}
+#end{
+	margin-top:860px;
+}
+#resumeimage{
+	width:100%;
+	height:500px;
+	background:url(../images/resume.jpg)no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+#resumeimage h2{
+	color:#fff;
+	font-size:50px;
+	text-align: center;
+	padding-top:200px;
+	text-shadow: #000 0 3px 0;
+}
+#resumeimage h5{
+	color:#fff;
+	font-size:30px;
+	text-align: center;
+	text-shadow: #000 0 3px 0;
+}
+
+
+
+

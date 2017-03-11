@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus®">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/mini.css">
+	</head>
+	<body>
+		<section>
+			<div id="d1">
+				<div id="dd">
+				
+				</div>
+			</div>
+			<div id="d2">
+				<span>123</span>
+			</div>
+			<div id="d3">
+				
+			</div>
+		</section>
+	</body>
+	<script>
+		var text = "*/非常感谢您的到来，欢迎进入我的博客。博客将由CSS+原生JS自动组建而成，请您稍后等待，我将为您展示我的个人介绍，希望您能耐心看完，马上开始，不要走开。。。。。。<br><br><br>组建加载启动......";
+		i = 0;
+		function type(){
+			str = text.substr(0,i);
+			var d3=document.getElementById("d3");
+			d3.innerHTML = str + "_";
+			i++;
+			if (i>text.length){
+				clearTimeout(timer);
+				timer=null;
+			}
+			var timer=setTimeout("type()",300);
+		}
+		type();
+	</script>
+</html>
